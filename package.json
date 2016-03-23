@@ -1,0 +1,38 @@
+{
+  "name": "react-flux-skeleton",
+  "version": "1.0.0",
+  "description": "Skeleton project for React.js with flux.",
+  "main": "js/app.js",
+  "dependencies": {
+    "flux": "^2.0.1",
+    "keymirror": "~0.1.0",
+    "object-assign": "^1.0.0",
+    "react": "^0.12.0"
+  },
+  "devDependencies": {
+    "watchify": "^2.1.1"
+  },
+  "scripts": {
+    "start": "watchify -o js/bundle.js -v -d js/app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyMa/react-flux-skeleton.git"
+  },
+  "keywords": [
+    "react",
+    "react.js",
+    "flux",
+    "skeleton"
+  ],
+  "author": "jma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnnyMa/react-flux-skeleton/issues"
+  },
+  "homepage": "https://github.com/JohnnyMa/react-flux-skeleton#readme",
+  "jest": {
+    "rootDir": "./js"
+  }
+}
